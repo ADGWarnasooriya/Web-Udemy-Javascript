@@ -18,3 +18,11 @@ if(random > 0.5){
     console.log("Your number is greater than 0.5!!!")
     console.log(random)
 }
+
+const dayOfWeek = 'saturday';
+
+if  (dayOfWeek === 'monday'){
+    console.log("UHH I Hate Monday!!!")
+} else if (dayOfWeek === 'saturday'){
+    console.log("YAY I Love Saturday!!!")
+}
