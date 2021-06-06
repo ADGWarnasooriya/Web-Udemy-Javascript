@@ -19,10 +19,12 @@ if(random > 0.5){
     console.log(random)
 }
 
-const dayOfWeek = 'saturday';
+const dayOfWeek = 'friday';
 
 if  (dayOfWeek === 'monday'){
     console.log("UHH I Hate Monday!!!")
 } else if (dayOfWeek === 'saturday'){
     console.log("YAY I Love Saturday!!!")
+}else if (dayOfWeek === 'friday'){
+    console.log("Let's Party!!!")
 }
