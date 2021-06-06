@@ -28,3 +28,20 @@ if  (dayOfWeek === 'monday'){
 }else if (dayOfWeek === 'friday'){
     console.log("Let's Party!!!")
 }
+
+// 0 - 5  free 
+// 5-10  child $10 
+// 10-65 adult $20
+// 65+ senior $10
+
+const age = 10 ;
+
+if (age < 5) {
+    console.log("You Are Baby, You get in For Free!!!")
+} else if (age <= 10){
+    console.log("You Are Child, You Have To Pay $10")
+}  else if (age < 65){
+    console.log("You Are Adult, You Have To Pay $20")
+} else if (age >= 65){ 
+    console.log("You Are Senior, You Have To Pay $10")
+}
