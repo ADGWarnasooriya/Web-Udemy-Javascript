@@ -104,10 +104,25 @@
 //     console.log("Falsy!")
 // }
 
-const password = prompt("Input Password");
+// const password = prompt("Input Password");
 
-if(password.length >= 6 && password.indexOf(' ') === -1){
-    console.log("Valid Password!!!")
-} else{
-    console.log("Incorrect Format")
+// if(password.length >= 6 && password.indexOf(' ') === -1){
+//     console.log("Valid Password!!!")
+// } else{
+//     console.log("Incorrect Format")
+// }
+
+// // 0 - 5  free 
+// // 5-10  child $10 
+// // 10-65 adult $20
+// // 65+ senior $10
+
+const age = 95;
+
+if (age < 5 || age >= 65){
+    console.log("Free!!!")
+} else if ( age <10){
+    console.log("$10!!!")
+} else if (age < 65){
+console.log("$20!!!")
 }
