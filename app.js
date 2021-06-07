@@ -92,7 +92,13 @@
 //     console.log("Falsy!")
 // }
 
-if(undefined){
+// if(undefined){
+//     console.log("Truthy!")
+// } else{
+//     console.log("Falsy!")
+// }
+
+if('  '){
     console.log("Truthy!")
 } else{
     console.log("Falsy!")
