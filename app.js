@@ -129,8 +129,14 @@
 //     console.log("Invalid Age")
 // }
 
-let firstName = prompt("Enter your First Name");
+// let firstName = prompt("Enter your First Name");
 
-if(!firstName){
-    firstName = prompt("Try Again!!!");
+// if(!firstName){
+//     firstName = prompt("Try Again!!!");
+// }
+
+const age = 10;
+
+if ( !(age >= 0 && age < 5 || age >= 65) ){
+    console.log("You Are Not A Baby Or Senior!!!")
 }
