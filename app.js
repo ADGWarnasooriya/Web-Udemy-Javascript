@@ -98,8 +98,16 @@
 //     console.log("Falsy!")
 // }
 
-if('  '){
-    console.log("Truthy!")
+// if('  '){
+//     console.log("Truthy!")
+// } else{
+//     console.log("Falsy!")
+// }
+
+const password = prompt("Input Password");
+
+if(password.length >= 6 && password.indexOf(' ') === -1){
+    console.log("Valid Password!!!")
 } else{
-    console.log("Falsy!")
+    console.log("Incorrect Format")
 }
