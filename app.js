@@ -125,4 +125,6 @@ if (age >= 0 && age < 5 || age >= 65){
     console.log("$10!!!")
 } else if (age >=10 && age < 65){
 console.log("$20!!!")
+} else{
+    console.log("Invalid Age")
 }
