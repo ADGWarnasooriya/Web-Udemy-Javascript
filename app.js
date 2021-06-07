@@ -72,11 +72,16 @@
 //     console.log('Password Too Short, Must be 6+ Characters')
 // }
 
-const userInput = prompt("Input Something");
+// const userInput = prompt("Input Something");
 
-if(userInput){
+// if(userInput){
+//     console.log("Truthy!")
+// } else{
+//     console.log("Falsy!")
+// }
+
+if(0){
     console.log("Truthy!")
 } else{
     console.log("Falsy!")
 }
-
