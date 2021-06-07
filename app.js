@@ -80,7 +80,13 @@
 //     console.log("Falsy!")
 // }
 
-if(0){
+// if(0){
+//     console.log("Truthy!")
+// } else{
+//     console.log("Falsy!")
+// }
+
+if(NaN){
     console.log("Truthy!")
 } else{
     console.log("Falsy!")
