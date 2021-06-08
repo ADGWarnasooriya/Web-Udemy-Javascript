@@ -135,8 +135,39 @@
 //     firstName = prompt("Try Again!!!");
 // }
 
-const age = 10;
+// const age = 10;
 
-if ( !(age >= 0 && age < 5 || age >= 65) ){
-    console.log("You Are Not A Baby Or Senior!!!")
+// if ( !(age >= 0 && age < 5 || age >= 65) ){
+//     console.log("You Are Not A Baby Or Senior!!!")
+// }
+
+const day = 52;
+switch (day){
+        case 1:
+        console.log("Monday");
+        break;
+
+        case 2:
+        console.log("Tuesday");
+        break;
+
+        case 3:
+        console.log("Wednesday");
+        break;
+
+        case 4:
+        console.log("Thursday");
+        break;
+
+        case 5:
+        console.log("Friday");
+        break;
+
+        case 6:
+        case 7:
+        console.log("Weekend");
+        break;
+
+        default:
+            console.log("I don't know!!!")
 }
