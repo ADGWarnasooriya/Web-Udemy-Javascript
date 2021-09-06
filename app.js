@@ -194,4 +194,9 @@
 // }else{
 //     console.log("Password too short")
 // }
-
+// Creating Object Literals
+let pets = {
+    pet_1 : 'dog',
+    pet_2 : 'cat',
+    pet_3 : 'fish'
+}
