@@ -141,33 +141,57 @@
 //     console.log("You Are Not A Baby Or Senior!!!")
 // }
 
-const day = 52;
-switch (day){
-        case 1:
-        console.log("Monday");
-        break;
+// const day = 52;
+// switch (day){
+//         case 1:
+//         console.log("Monday");
+//         break;
 
-        case 2:
-        console.log("Tuesday");
-        break;
+//         case 2:
+//         console.log("Tuesday");
+//         break;
 
-        case 3:
-        console.log("Wednesday");
-        break;
+//         case 3:
+//         console.log("Wednesday");
+//         break;
 
-        case 4:
-        console.log("Thursday");
-        break;
+//         case 4:
+//         console.log("Thursday");
+//         break;
 
-        case 5:
-        console.log("Friday");
-        break;
+//         case 5:
+//         console.log("Friday");
+//         break;
 
-        case 6:
-        case 7:
-        console.log("Weekend");
-        break;
+//         case 6:
+//         case 7:
+//         console.log("Weekend");
+//         break;
 
-        default:
-            console.log("I don't know!!!")
-}
+//         default:
+//             console.log("I don't know!!!")
+// }
+
+// let number = 1;
+
+// while (number <= 10){
+//     console.log(number),
+//     number++
+// }
+// let random = Math.random();
+// if(random < 0.5){
+//     console.log("It's correct")
+//     console.log(random)
+// }else{
+// console.log("It's Wrong!")
+// console.log(random)
+// }
+
+// const password = prompt("Please Input Your Password")
+
+// if (password.length >= 6 && password.indexOf(' ') === -1 ){
+//     console.log("Long enough Password")
+// }else{
+//     console.log("Password too short")
+// }
+
