@@ -195,8 +195,13 @@
 //     console.log("Password too short")
 // }
 // Creating Object Literals
-let pets = {
-    pet_1 : 'dog',
-    pet_2 : 'cat',
-    pet_3 : 'fish'
+// let pets = {
+//     pet_1 : 'dog',
+//     pet_2 : 'cat',
+//     pet_3 : 'fish'
+// }
+// for loop
+for(let i = 0; i < 10; i++) {
+    console.log("I'm in the loop body");
+    console.log(i);
 }
