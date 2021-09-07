@@ -209,7 +209,18 @@
 // for(let i = 1; i <=20; i+=2 ){
 //     console.log(i);
 // }
-100 to 0
-for(let i =100; i>=0; i=i-10){
-    console.log(i);
+// 100 to 0
+// for(let i =100; i>=0; i=i-10){
+//     console.log(i);
+// }
+
+// for(let i = 10; i<=1000; i*=10){
+//     console.log(i);
+// }
+// Nested Loops
+for(let i=1; i<=10; i++){
+    console.log(`i is ${i}`);
+    for(let j=1; j<4; j++){
+        console.log(`             j is ${j}`);
+    }
 }
