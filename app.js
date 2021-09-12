@@ -218,9 +218,22 @@
 //     console.log(i);
 // }
 // Nested Loops
-for(let i=1; i<=10; i++){
-    console.log(`i is ${i}`);
-    for(let j=1; j<4; j++){
-        console.log(`             j is ${j}`);
-    }
+// for(let i=1; i<=10; i++){
+//     console.log(`i is ${i}`);
+//     for(let j=1; j<4; j++){
+//         console.log(`             j is ${j}`);
+//     }
+// }
+
+// for(let i=1; i<=10;i+=1){
+//     console.log();
+//     console.log("hi");
+// }
+
+//while loop
+let x = 0;
+while(x<10){
+    x+=1;
+    console.log(x);
+    
 }
