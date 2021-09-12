@@ -231,9 +231,16 @@
 // }
 
 //while loop
-let x = 0;
-while(x<10){
-    x+=1;
-    console.log(x);
+// let x = 0;
+// while(x<10){
+//     x+=1;
+//     console.log(x);
     
+// }
+
+const secret = 'BabyHippo';
+let attempt = prompt('Enter your secret code');
+while(attempt !== secret){
+    attempt = prompt('Enter your secret code');
 }
+console.log("Congrats you Got It!!!");
