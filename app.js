@@ -238,9 +238,17 @@
     
 // }
 
-const secret = 'BabyHippo';
-let attempt = prompt('Enter your secret code');
-while(attempt !== secret){
-    attempt = prompt('Enter your secret code');
+// const secret = 'BabyHippo';
+// let attempt = prompt('Enter your secret code');
+// while(attempt !== secret){
+//     attempt = prompt('Enter your secret code');
+// }
+// console.log("Congrats you Got It!!!");
+
+let input = prompt("hello, say something..!!!")
+
+while(true){
+    input = prompt(input);
+    if(input.toLocaleLowerCase() === 'stop copying me')break;
 }
-console.log("Congrats you Got It!!!");
+console.log("ok.. You Win...");
