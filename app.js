@@ -245,10 +245,15 @@
 // }
 // console.log("Congrats you Got It!!!");
 
-let input = prompt("hello, say something..!!!")
+// let input = prompt("hello, say something..!!!")
 
-while(true){
-    input = prompt(input);
-    if(input.toLocaleLowerCase() === 'stop copying me')break;
+// while(true){
+//     input = prompt(input);
+//     if(input.toLocaleLowerCase() === 'stop copying me')break;
+// }
+// console.log("ok.. You Win...");
+
+for(let i=0; i<1000; i+=1) {
+      console.log(i);
+      if(i===100) break;
 }
-console.log("ok.. You Win...");
