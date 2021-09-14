@@ -260,29 +260,56 @@
 
 // Writing a Guessing Game...!!!
 
-let maximum = parseInt(prompt("Enter the maximum number!"));
-while(!maximum){
-    maximum = parseInt(prompt("Enter a valid number!"));
-}
+// let maximum = parseInt(prompt("Enter the maximum number!"));
+// while(!maximum){
+//     maximum = parseInt(prompt("Enter a valid number!"));
+// }
 
-const targetNum = Math.floor(Math.random() * maximum) + 1;
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
 
-let guess = parseInt(prompt("Enter your first guess!"));
-let attempts = 1;
+// let guess = parseInt(prompt("Enter your first guess!"));
+// let attempts = 1;
 
-while (parseInt(guess) !== targetNum) {
-    if(guess === 'q')break;
-    attempts++;
-    if(guess > targetNum){
-        guess = prompt("Too high! Enter a new guess:");
-    } else{
-        guess = prompt("Too low! Enter a new guess:")
+// while (parseInt(guess) !== targetNum) {
+//     if(guess === 'q')break;
+//     attempts++;
+//     if(guess > targetNum){
+//         guess = prompt("Too high! Enter a new guess:");
+//     } else{
+//         guess = prompt("Too low! Enter a new guess:")
+//     }
+// }
+
+// if(guess === 'q'){
+//     console.log("OK, You Quit!")
+// }else{
+//     console.log(`"CONGRATS number is ${targetNum},  YOU WIN!"`)
+//     console.log(`You got it! It took you ${attempts} guesses`)
+// }
+//ToDo list App
+
+let input = prompt("what would you like to do?")
+const todos = ['Collect Chicken Eggs','Clean litter Box'];
+while(input !== 'quit' && input !== 'q') {
+    if(input === 'list'){
+        console.log('**********************')
+        for(let i = 0; i < todos.length; i++){
+            console.log(`${i}: ${todos[i]}`);
+        }
+        console.log('**********************')
+    } else if(input === 'new'){
+        const newTodo = prompt('Ok, what is the new todo?');
+        todos.push(newTodo);
+        console.log(`${newTodo} added to the list!`)
+    } else if(input ==='delete'){
+        const index  = parseInt(prompt('Ok, enter an index to delete:'));
+        if(!Number.isNaN(index)){
+        const deleted = todos.splice(index,1);
+        console.log(`Ok, deleted ${deleted[0]}`);
+     }else {
+        console.log('Unknown index')
+     }
     }
+    input = prompt("what would you like to do?")
 }
-
-if(guess === 'q'){
-    console.log("OK, You Quit!")
-}else{
-    console.log(`"CONGRATS number is ${targetNum},  YOU WIN!"`)
-    console.log(`You got it! It took you ${attempts} guesses`)
-}
+console.log("OK QUIT THE APP!!!")
